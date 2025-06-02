@@ -1,5 +1,5 @@
-const exampleRoute = require('./example');
+const VendaItens = require('./VendaItens');
 
 module.exports = (app) => {
-  exampleRoute(app);
+  VendaItens(app);
 }
